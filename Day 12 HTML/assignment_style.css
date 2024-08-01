@@ -1,0 +1,53 @@
+
+.marquee {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    color: #333;
+    font-size: 1.2em;
+    border-bottom: 2px solid #ddd;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+ 
+.stat {
+    text-align: center;
+}
+ 
+.stat h3 {
+    font-size: 24px;
+}
+ 
+.stat p {
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.content h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+.service-card, .product-card {
+    transition: transform 0.2s;
+}
+.service-card:hover, .product-card:hover {
+    transform: scale(1.05);
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}
